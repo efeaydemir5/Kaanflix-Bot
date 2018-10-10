@@ -8,7 +8,7 @@ exports.run = (client, message, params) => {
   .setTitle("BOT KOMUTLARI")
   .setDescription('')
   .setColor(0x00ffff)
-  .addField("**Bot Komutları**", `**!yak**:Sigara Yakarsınız.\n**!kaanflix**:Size Kaanflix Resimi Atar.\n**!kırbaç**:Botu Kırbaçlarsınız\n**!afk**:Afk Moduna Geçersiniz.\n**!zekam**:Zekanızı Ölçersiniz.\n**!kurabiye**:Size Kurabiye Verir.\n**!günlükmüzik**:Günün Müziğini Gösterir.\n**!benglobalim**:Globallenirsiniz.\n**köle çalış**:Köleye kızarsınız.\n**düello**:İstediğiniz Kişiyle Duello Yaparsınız.`)
+  .addField("**Bot Komutları**", `**!yak**:Sigara Yakarsınız.\n**!kaanflix**:Size Kaanflix Resimi Atar.\n**!kırbaç**:Botu Kırbaçlarsınız\n**!afk**:Afk Moduna Geçersiniz.\n**!zekam**:Zekanızı Ölçersiniz.\n**!kurabiye**:Size Kurabiye Verir.\n**!günlükmüzik**:Günün Müziğini Gösterir.\n**!benglobalim**:Globallenirsiniz.\n**köle çalış**:Köleye kızarsınız.\n**düello**:İstediğiniz Kişiyle Duello Yaparsınız.\n**canlıdestek**:Moderatörlerden Yardım Alırsınız.\n**hayvan**:Dene gör.\n**afk**:Afk Olursunuz.\**urfagonder**:Urfa Söylersiniz.`)
   .setFooter("==> Kurucum Mordecai#3303. <===")
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
