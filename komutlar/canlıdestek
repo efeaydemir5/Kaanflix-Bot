@@ -75,5 +75,5 @@ const emoji7 = message.client.emojis.get('ğŸ“');
 exports.help = {
   name: 'canlÄ±destek',
   description: 'CanlÄ± Destek Tablebi OluÅŸturur.',
-  usage: 'canlıdestek'
+  usage: 'destek'
 };
