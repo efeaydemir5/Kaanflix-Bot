@@ -133,25 +133,25 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === '!kırbaç') {
+  if (msg.content === 'z!kırbaç') {
     msg.channel.sendMessage('ah popom');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === '!yenilikler') {
+  if (msg.content === 'z!yenilikler') {
     msg.channel.sendMessage('**!kaanflix**:Kaanflix Fotoğrafı Gösterir.\n**!yak**:Sigara Yakarsınız.\n**!kırbaç**:Botu Kırbaçlarsınız.\n**!afk**:Afk Moduna Geçersiniz.(Geliştirilecek)\n**!gününşarkısı**:Günün Şarkısını Gösterir.\n**!benglobalim**:Dene Ve Gör.\n**!kurabiye**:Kurabiye Verir.\n**!zekam**:Zekanızı Ölçer.\n**çekiliş**:Çekiliş Yapar.');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === '!afk') {
+  if (msg.content === 'z!afk') {
     msg.reply('Afk Moduna Geçti :white_check_mark: ');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === '!günlükmüzik') {
+  if (msg.content === 'zz!günlükmüzik') {
     msg.channel.sendMessage('Günün Şarkısı: https://www.youtube.com/watch?v=jLzrdogPDqg :flag_tr: :flag_az: ');
   }
 });
