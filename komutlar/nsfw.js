@@ -24,5 +24,5 @@ description: ('Bu kanal NSFW(Not Safe For Work) kanalı değil!')
  exports.help = {
    name: 'nsfw',
    description: '+18 Resim Gösterir',
-   usage: 'nsfw'
+   usage: '!nsfw'
  };
