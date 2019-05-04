@@ -217,13 +217,3 @@ client.on('message', msg => {
   }
 });
 	
-client.on('message', message => {
-if (message.content.toLowerCase() === prefix + "kaanflixkimdir") {
-    var sans = ["Ankara'da yaşamaktadır.", "Denize hasretdir.", "1996 doğumludur.", "Mokali dinlemeyi çok sever.", "Twitch yayını açmayı çok sever.", "Her gün Richardo Milos izler.", "Kölesini kırbaçlamayı çok sever."];
-    var sonuc = sans[Math.floor((Math.random() * sans.length))];
-    const embed = new Discord.RichEmbed()
-    .addField(`***KaanFlix***`, `${sonuc}`)
-    return message.channel.sendEmbed(embed);
-}
-});
-
