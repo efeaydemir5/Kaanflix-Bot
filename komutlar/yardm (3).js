@@ -8,7 +8,7 @@ exports.run = (client, message, params) => {
   .setTitle("BOT KOMUTLARI")
   .setDescription('')
   .setColor(0x00ffff)
-  .addField("**Bot Komutları**", `**!yak**:Sigara Yakarsınız.\n**!kaanflix**:Size Kaanflix Resimi Atar.\n**!kırbaç**:Botu Kırbaçlarsınız\n**!afk**:Afk Moduna Geçersiniz.\n**!zekam**:Zekanızı Ölçersiniz.\n**!kurabiye**:Size Kurabiye Verir.\n**!günlükmüzik**:Günün Müziğini Gösterir.\n**!benglobalim**:Globallenirsiniz.\n**köle çalış**:Köleye kızarsınız.\n**düello**:İstediğiniz Kişiyle Duello Yaparsınız.\n**canlıdestek**:Moderatörlerden Yardım Alırsınız.\n**hayvan**:Dene gör.\n**afk**:Afk Olursunuz.\n**urfagonder**:Urfa Söylersiniz.\n**şifre**:Random Şifre Alırsınız.\n**slots**:Slot Oyunu Oynarsınız.\n**tavsiye**:Bot Hakkında İsteklerinizi Söylersiniz.\n**kaçcm**:Kaç Santim Olduğunu Söyler."`)
+  .addField("**Bot Komutları**", `**!yak**:Sigara Yakarsınız.\n**!kaanflix**:Size Kaanflix Resimi Atar.\n**!kırbaç**:Botu Kırbaçlarsınız\n**!afk**:Afk Moduna Geçersiniz.\n**!zekam**:Zekanızı Ölçersiniz.\n**!kurabiye**:Size Kurabiye Verir.\n**!günlükmüzik**:Günün Müziğini Gösterir.\n**!benglobalim**:Globallenirsiniz.\n**köle çalış**:Köleye kızarsınız.\n**düello**:İstediğiniz Kişiyle Duello Yaparsınız.\n**canlıdestek**:Moderatörlerden Yardım Alırsınız.\n**hayvan**:Dene gör.\n**afk**:Afk Olursunuz.\n**urfagonder**:Urfa Söylersiniz.\n**şifre**:Random Şifre Alırsınız.\n**slots**:Slot Oyunu Oynarsınız.\n**tavsiye**:Bot Hakkında İsteklerinizi Söylersiniz.\n**kaçcm**:Kaç Santim Olduğunu Söyler.")
   .setFooter("==> Kurucum EfeAydemir☣#3157. <===")
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
