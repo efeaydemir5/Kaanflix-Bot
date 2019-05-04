@@ -151,7 +151,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'zz!günlükmüzik') {
+  if (msg.content === 'z!günlükmüzik') {
     msg.channel.sendMessage('Günün Şarkısı: https://www.youtube.com/watch?v=jLzrdogPDqg :flag_tr: :flag_az: ');
   }
 });
@@ -205,16 +205,16 @@ if (message.content.toLowerCase() === prefix + "kaçcm") {
 });
 
 
-client.on('message', message => {
-if (message.content === 'z!twitch') {
-message.channel.send("https://www.twitch.tv/kaanflix");
-}
+client.on('message', msg => {
+  if (msg.content === 'z!twitch') {
+    msg.channel.sendMessage('https://www.twitch.tv/kaanflix');
+  }
 });
 
-client.on('message', message => {
-if (message.content === 'z!mokali') {
-message.channel.send("https://www.youtube.com/watch?v=AqNxa-Wp9Tg");
-}
+client.on('message', msg => {
+  if (msg.content === 'z!mokali') {
+    msg.channel.sendMessage('https://www.youtube.com/watch?v=AqNxa-Wp9Tg');
+  }
 });
 	
 client.on('message', message => {
