@@ -212,7 +212,7 @@ message.channel.send("https://www.twitch.tv/kaanflix");
 
 client.on('message', message => {
 if (message.content === 'z!mokali') {
-message.channel.send("https://www.youtube.com/watch?v=AqNxa-Wp9Tg"
+message.channel.send("https://www.youtube.com/watch?v=AqNxa-Wp9Tg");
 }
 });
 
