@@ -205,15 +205,5 @@ if (message.content.toLowerCase() === prefix + "kaçcm") {
 });
 
 
-client.on('message', msg => {
-  if (msg.content === 'z!twitch') {
-    msg.channel.sendMessage('https://www.twitch.tv/kaanflix');
-  }
-});
 
-client.on('message', msg => {
-  if (msg.content === 'z!mokali') {
-    msg.channel.sendMessage('https://www.youtube.com/watch?v=AqNxa-Wp9Tg');
-  }
-});
-	
+
