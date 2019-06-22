@@ -111,3 +111,4 @@ exports.help = {
   category: "eğlence",
   description: 'İstediğiniz bir kişi ile düello atarsınız!',
   usage: 'düello <@kullanıcı>'
+};
