@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
   const canlıyayınbaşarılı = "Canlı yayın başarıyla başlatıldı.";
   const yetkili = "Komut dosyasından 10. satırda bulunan owner_id kontrol ediniz.";
 
-  if (message.author.id !== ('349864614017630208')) {
+  if (message.author.id !== ('358892155793833985')) {
       const embed = new Discord.RichEmbed()
       .setColor("#FF0000")
       .setTitle(':shield: Canlı Yayın Statüsü Değiştirme :shield:')
