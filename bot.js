@@ -242,6 +242,6 @@ if (message.content.toLowerCase() === prefix + "bugünneoldu") {
 
 client.on('message', msg => {
   if (msg.content === 'acımayın köleye) {
-    msg.channel.sendMessage('ah shit...here we go again');
+    msg.channel.sendMessage('ah shit here we go again');
   }
 });
