@@ -152,7 +152,8 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'z!günlükmüzik') {
-    msg.channel.sendMessage('Günün Şarkısı: https://www.youtube.com/watch?v=nbf6HsARfeQ ');
+    msg.channel.sendMessage('Günün Şarkısı: https://www.youtube.com/watch?v=BvkPTTU34lY&list=RDMMBvkPTTU34lY&start_radio=1
+			   ');
   }
 });
 
