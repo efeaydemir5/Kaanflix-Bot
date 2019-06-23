@@ -235,3 +235,13 @@ if (message.content.toLowerCase() === prefix + "bugünneoldu") {
     return message.channel.sendEmbed(embed);
 }
 });
+
+
+}
+});
+
+client.on('message', msg => {
+  if (msg.content === 'acımayın köleye) {
+    msg.channel.sendMessage('ah shit...here we go again');
+  }
+});
