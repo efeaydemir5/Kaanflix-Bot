@@ -243,3 +243,11 @@ if (message.content === 'z!özgürköle') {
 message.channel.send("köle istiyor kalmak");
 }
 });
+
+
+
+client.on('message', message => {
+if (message.content === 'z!köleyisev') {
+message.channel.send("köle seviyor sizi");
+}
+});
