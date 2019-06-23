@@ -237,14 +237,8 @@ if (message.content.toLowerCase() === prefix + "bugünneoldu") {
 });
 
 
-
+client.on('message', message => {
+if (message.content === 'z!özgürköle') {
+message.channel.send("Allahım şükürler olsun");
 }
 });
-
-client.on('message', msg => {
-  if (msg.content === 'z!özgürköle') {
-    msg.channel.sendMessage('ban zamanı');
-  }
-});
-
-
