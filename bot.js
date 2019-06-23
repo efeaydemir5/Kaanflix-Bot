@@ -251,3 +251,4 @@ if (message.content === 'z!köleyisev') {
 message.channel.send("köle seviyor sizi");
 }
 });
+
