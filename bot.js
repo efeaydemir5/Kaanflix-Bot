@@ -121,14 +121,7 @@ exports.help = {
 client.on('message', msg => {
    if (msg.content.startsWith(prefix + "kaanflix"))  {
     msg.channel.send ("" , {files: ["./resimler/kaanflix3.jpg"]});
-  }
-});
 
-client.on('message', msg => {
-  if (msg.content === 'acımayınköleye') {
-    msg.channel.sendMessage('ah shit...here we go again');
-  }
-});
 
   }
 });
@@ -159,8 +152,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'z!günlükmüzik') {
-    msg.channel.sendMessage('Günün Şarkısı: https://www.youtube.com/watch?v=BvkPTTU34lY&list=RDMMBvkPTTU34lY&start_radio=1
-			   ');
+    msg.channel.sendMessage('Günün Şarkısı: https://www.youtube.com/watch?v=BvkPTTU34lY&list=RDMMBvkPTTU34lY&start_radio=1');
   }
 });
 
