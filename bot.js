@@ -226,4 +226,12 @@ if (message.content.toLowerCase() === prefix + "kaanflixkim") {
 }
 });
 
-
+client.on('message', message => {
+if (message.content.toLowerCase() === prefix + "bugünneoldu") {
+    var sans = ["yazı", "yazı", "yazı", "yazı"];
+    var sonuc = sans[Math.floor((Math.random() * sans.length))];
+    const embed = new Discord.RichEmbed()
+    .addField(`***23.06.2019***`, `${sonuc}`)
+    return message.channel.sendEmbed(embed);
+}
+});
