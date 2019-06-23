@@ -228,8 +228,7 @@ if (message.content.toLowerCase() === prefix + "kaanflixkim") {
 
 client.on('message', message => {
 if (message.content.toLowerCase() === prefix + "bugünneoldu") {
-    var sans = ["iyiki doğdun mentor", "deneme
-	", "yazı", "yazı"];
+    var sans = ["iyiki doğdun mentor", "deneme", "yazı", "yazı"];
     var sonuc = sans[Math.floor((Math.random() * sans.length))];
     const embed = new Discord.RichEmbed()
     .addField(`***23.06.2019***`, `${sonuc}`)
