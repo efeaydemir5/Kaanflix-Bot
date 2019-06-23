@@ -241,6 +241,6 @@ if (message.content.toLowerCase() === prefix + "bugünneoldu") {
 
 client.on('message', message => {
 if (message.content === 'z!özgürköle') {
-message.channel.send("Allahım şükürler olsun");
+message.channel.send("köle istiyor kalmak");
 }
 });
