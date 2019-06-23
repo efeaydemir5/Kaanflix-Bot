@@ -121,7 +121,14 @@ exports.help = {
 client.on('message', msg => {
    if (msg.content.startsWith(prefix + "kaanflix"))  {
     msg.channel.send ("" , {files: ["./resimler/kaanflix3.jpg"]});
+  }
+});
 
+client.on('message', msg => {
+  if (msg.content === 'acımayınköleye') {
+    msg.channel.sendMessage('ah shit...here we go again');
+  }
+});
 
   }
 });
