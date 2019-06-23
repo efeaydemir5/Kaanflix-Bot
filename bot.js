@@ -242,7 +242,7 @@ if (message.content.toLowerCase() === prefix + "bugünneoldu") {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'z!özgürköle) {
+  if (msg.content === 'z!özgürköle') {
     msg.channel.sendMessage('ban zamanı');
   }
 });
