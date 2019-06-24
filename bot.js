@@ -227,4 +227,3 @@ if (message.content === 'z!köleyikurbanet') {
 message.channel.send("efendim hayır");
 }
 });
-
