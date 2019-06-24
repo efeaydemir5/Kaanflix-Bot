@@ -10,6 +10,7 @@ var prefix = ayarlar.prefix;
 
 const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
+}	
 };
 
 client.commands = new Discord.Collection();
@@ -134,6 +135,7 @@ client.on('message', msg => {
 	  
   }
 });
+
 
 client.on('message', msg => {
   if (msg.content === 'z!kırbaç') {
