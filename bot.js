@@ -250,11 +250,4 @@ message.channel.send("efendim hayır");
 }
 });
 
-
-
-
-	 message.channel.send(`z!yardım2
-z!özgürköle
-z!köleyikurbanet`)
-
 	
