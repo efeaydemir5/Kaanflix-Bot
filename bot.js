@@ -210,7 +210,7 @@ if (message.content.toLowerCase() === prefix + "bugünneoldu") {
     var sans = ["44 sanıklı Barış Derneği davası başladı.r", "İstanbul'da üniversite öğrencileri Amerikan 6. Filosu'nun İstanbul Limanına gelişini protesto ettiler.", "dünya ablalar günü", "Türkiye'den ilk işçi kafilesi Almanya'ya gitti."];
     var sonuc = sans[Math.floor((Math.random() * sans.length))];
     const embed = new Discord.RichEmbed()
-    .addField("***23.06.2019***, ${sonuc}")
+    .addField("***24.06.2019***, ${sonuc}")
     return message.channel.sendEmbed(embed);
 }
 });
