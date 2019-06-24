@@ -138,7 +138,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'z!yenilikler') {
-    msg.channel.sendMessage('**!kaanflix**:Kaanflix Fotoğrafı Gösterir.\n**!yak**:Sigara Yakarsınız.\n**!kırbaç**:Botu Kırbaçlarsınız.\n**!afk**:Afk Moduna Geçersiniz.(Geliştirilecek)\n**!gününşarkısı**:Günün Şarkısını Gösterir.\n**!benglobalim**:Dene Ve Gör.\n**!kurabiye**:Kurabiye Verir.\n**!zekam**:Zekanızı Ölçer.\n**çekiliş**:Çekiliş Yapar.\.');
+    msg.channel.sendMessage('**!kaanflix**:Kaanflix Fotoğrafı Gösterir.\n**!yak**:Sigara Yakarsınız.\n**!kırbaç**:Botu Kırbaçlarsınız.\n**!afk**:Afk Moduna Geçersiniz.(Geliştirilecek)\n**!gününşarkısı**:Günün Şarkısını Gösterir.\n**!benglobalim**:Dene Ve Gör.\n**!kurabiye**:Kurabiye Verir.\n**!zekam**:Zekanızı Ölçer.\n**çekiliş**:Çekiliş Yapar.');
   }
 });
 
@@ -247,4 +247,3 @@ if (message.content === 'z!köleyikurbanet') {
 message.channel.send("efendim hayır");
 }
 });
-
