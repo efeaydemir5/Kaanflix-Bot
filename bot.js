@@ -250,4 +250,3 @@ message.channel.send("efendim hayır");
 }
 });
 
-	
