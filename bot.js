@@ -157,10 +157,9 @@ client.on('message', msg => {
 client.on('message', msg => {
    if (msg.content.startsWith(prefix + "benglobalim"))  {
     msg.channel.send ("G L O B A L L E N D İ N" , {files: ["./resimler/globallendin.jpg"]});
-
-
   }
 });
+
 
 client.on('message', message => {
 if (message.content.toLowerCase() === prefix + "zekam") {
