@@ -114,6 +114,7 @@ exports.help = {
   name: 'yak',
   description: 'Sigara Yakarsınız',
   usage: 'yak'
+ }	
 };
 
 
@@ -128,7 +129,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'köle çalış') {
-    msg.channel.sendMessage('tmm ln kızma');
+    msg.channel.sendMessage('tmm ln kızma');  
 	  
 	  
   }
