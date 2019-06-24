@@ -78,8 +78,6 @@ client.unload = command => {
   });
 };
 
-
-
 client.elevation = message => {
   if(!message.guild) {
 	return; }
@@ -96,6 +94,7 @@ client.on('warn', e => {
   console.log(chalk.bgYellow(e.replace(regToken, 'that was redacted')));
 });
 
+
 client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
@@ -106,7 +105,7 @@ client.on('message', msg => {
    if (msg.content.startsWith(prefix + "yak"))  {
     msg.channel.send ("yak yak 🚬🚬🚬 " , {files: ["./resimler/kaanflix1.png"]});
 
-
+	   
   }
 
 });
