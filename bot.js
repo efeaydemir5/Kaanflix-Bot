@@ -250,3 +250,9 @@ message.channel.send("efendim hayır");
 }
 });
 
+
+	  if (msg.content === 'z!yenilikler') {
+msg.channel.send( z!yardım2
+z!özgürköle
+z!köleyikurbanet)
+}
