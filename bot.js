@@ -103,7 +103,9 @@ client.login(process.env.BOT_TOKEN);
 
 client.on('message', msg => {
    if (msg.content.startsWith(prefix + "yak"))  {
-    msg.channel.send ("yak yak 🚬🚬🚬 " , {files: ["./resimler/kaanflix1.png"]});	   
+    msg.channel.send ("yak yak 🚬🚬🚬 " , {files: ["./resimler/kaanflix1.png"]});	
+	   
+	   
   }
 });
 
@@ -127,6 +129,8 @@ client.on('message', msg => {
 client.on('message', msg => {
   if (msg.content === 'köle çalış') {
     msg.channel.sendMessage('tmm ln kızma');
+	  
+	  
   }
 });
 
@@ -159,7 +163,6 @@ client.on('message', msg => {
     msg.channel.send ("G L O B A L L E N D İ N" , {files: ["./resimler/globallendin.jpg"]});
   }
 });
-
 
 client.on('message', message => {
 if (message.content.toLowerCase() === prefix + "zekam") {
