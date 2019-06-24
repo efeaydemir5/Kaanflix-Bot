@@ -234,9 +234,7 @@ if (message.content.toLowerCase() === prefix + "bugünneoldu") {
     .addField(`***23.06.2019***`, `${sonuc}`)
     return message.channel.sendEmbed(embed);
 }
-});
-
-
+	
 
 client.on('message', message => {
 if (message.content === 'z!özgürköle') {
@@ -252,3 +250,11 @@ message.channel.send("efendim hayır");
 }
 });
 
+
+
+
+	 message.channel.send( `z!yardım2
+z!özgürköle
+z!köleyikurbanet
+`)
+	
