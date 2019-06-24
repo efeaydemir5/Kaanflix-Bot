@@ -205,12 +205,13 @@ if (message.content.toLowerCase() === prefix + "kaanflixkim") {
     return message.channel.sendEmbed(embed);
 }
 });
+
 client.on('message', message => {
 if (message.content.toLowerCase() === prefix + "bugünneoldu") {
     var sans = ["44 sanıklı Barış Derneği davası başladı.r", "İstanbul'da üniversite öğrencileri Amerikan 6. Filosu'nun İstanbul Limanına gelişini protesto ettiler.", "dünya ablalar günü", "Türkiye'den ilk işçi kafilesi Almanya'ya gitti."];
     var sonuc = sans[Math.floor((Math.random() * sans.length))];
     const embed = new Discord.RichEmbed()
-    .setDescription('***24.06.2019***, ${sonuc}')
+    .setDescription(`24.06.2019, ${sonuc}`)
     return message.channel.sendEmbed(embed);
 }
 });
