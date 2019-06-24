@@ -227,3 +227,10 @@ if (message.content === 'z!köleyikurbanet') {
 message.channel.send("efendim hayır");
 }
 });
+
+
+client.on('message', message => {
+if (message.content === 'z!gizlikomut') {
+message.channel.send("şifre nedir");
+}
+});
