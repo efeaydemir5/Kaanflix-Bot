@@ -151,7 +151,7 @@ if (message.content.toLowerCase() === prefix + "zekam") {
     var sans = ["11", "15", "20", "24", "28", "31", "39", "45", "49", "54", "58", "63", "67", "77", "73", "84", "80", "83", "96", "94", "99", "Albert Einstein mısın krdşm"];
     var sonuc = sans[Math.floor((Math.random() * sans.length))];
     const embed = new Discord.RichEmbed()
-    .addField(`***___Zekan___***, ${sonuc}`)
+    .addField(`***___Zekan___***`, ` ${sonuc}`)
     return message.channel.sendEmbed(embed);
 }
 });
@@ -180,7 +180,7 @@ if (message.content.toLowerCase() === prefix + "kaçcm") {
     var sans = ["2 cm", "16 cm", "8 cm", "10 cm", "4 cm", "1 cm","3 cm", "45 cm", "Johny Sins misin Kardeşim."];
     var sonuc = sans[Math.floor((Math.random() * sans.length))];
     const embed = new Discord.RichEmbed()
-    .addField(`***___Seninki___***, ${sonuc}`)
+    .addField(`***___Seninki___***`, ` ${sonuc}`)
     return message.channel.sendEmbed(embed);
 }
 });
