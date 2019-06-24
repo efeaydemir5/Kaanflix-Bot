@@ -103,12 +103,11 @@ client.login(process.env.BOT_TOKEN);
 
 client.on('message', msg => {
    if (msg.content.startsWith(prefix + "yak"))  {
-    msg.channel.send ("yak yak 🚬🚬🚬 " , {files: ["./resimler/kaanflix1.png"]});
-
-	   
+    msg.channel.send ("yak yak 🚬🚬🚬 " , {files: ["./resimler/kaanflix1.png"]});	   
   }
-
 });
+
+
 exports.help = {
   name: 'yak',
   description: 'Sigara Yakarsınız',
