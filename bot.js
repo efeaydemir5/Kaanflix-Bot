@@ -249,7 +249,7 @@ message.channel.send("efendim hayır");
 }
 });
 
-
+client.on('message', message => {
   if (msg.content === 'z!yenilikler') {
 msg.channel.send( z!yardım2
 z!özgürköle
