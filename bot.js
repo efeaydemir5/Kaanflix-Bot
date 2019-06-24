@@ -226,6 +226,7 @@ if (message.content.toLowerCase() === prefix + "kaanflixkim") {
 }
 });
 
+
 client.on('message', message => {
 if (message.content.toLowerCase() === prefix + "bugünneoldu") {
     var sans = ["44 sanıklı Barış Derneği davası başladı.r", "İstanbul'da üniversite öğrencileri Amerikan 6. Filosu'nun İstanbul Limanına gelişini protesto ettiler.", "dünya ablalar günü", "Türkiye'den ilk işçi kafilesi Almanya'ya gitti."];
@@ -243,16 +244,9 @@ message.channel.send("köle istiyor kalmak");
 });
 
 
-
 client.on('message', message => {
 if (message.content === 'z!köleyikurbanet') {
 message.channel.send("efendim hayır");
 }
 });
 
-
-	  if (msg.content === 'z!yenilikler') {
-msg.channel.send( z!yardım2
-z!özgürköle
-z!köleyikurbanet)
-}
