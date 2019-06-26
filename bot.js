@@ -171,7 +171,7 @@ if (message.content === prefix + "kurabiye") {
 client.on('message', message => {
 if (message.content === 'sa') {
 message.channel.send("as");
-message.react(":point_down:");
+message.react("👇");
 }
 });
 
