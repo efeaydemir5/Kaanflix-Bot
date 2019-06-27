@@ -4,7 +4,7 @@ const googleTTS = require('google-tts-api');
 const fs = require('fs');
 
 const client = new Discord.Client();
-const config = require('./settings.json');
+const config = require('./ayarlar.json');
 const languages = require('./languages.json');
 
 let language = config.language;
