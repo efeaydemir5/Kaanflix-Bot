@@ -164,7 +164,7 @@ client.on('message', msg => {
     client.on('message', message => {
 if (message.content === prefix + "kurabiye") {
     message.channel.sendMessage(`Canım gel buraya sana kurabiye vereceğim! <@${message.author.id}>`)
-    message.react(":cookie:")
+    message.react("🍪")
 }
 });
 
