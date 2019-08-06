@@ -223,8 +223,3 @@ message.channel.send("köle istiyor kalmak");
 });
 
 
-client.on('message', message => {
-if (message.content === 'z!köleyikurbanet') {
-message.channel.send("efendim hayır");
-}
-});
