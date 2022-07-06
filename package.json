@@ -15,7 +15,7 @@
     "discord.js-commando": "^0.10.0",
     "fs-extra": "^7.0.0",
     "generate-password": "^1.4.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "moment-duration-format": "^2.2.2",
     "weather-js": "^2.0.0",
     "weather.js": "^0.1.0",
